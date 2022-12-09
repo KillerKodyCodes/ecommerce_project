@@ -1,22 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/Navbar';
+import Navbar from "./components/Navbar"
+import Products from "./pages/Products"
+import Home from "./pages/Home"
+import About from "./pages/About"
+import { Route, Routes } from "react-router-dom"
 
 function App() {
   return (
-    <div className="App">
-      <img src={logo} className="App-logo" alt="logo" />
-      <Navbar/>
-      <header className="App-header">
-     
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        
-      </header>
-    </div>
-  );
+    <>
+      <Navbar />
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default App
