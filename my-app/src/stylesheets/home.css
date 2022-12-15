@@ -1,0 +1,20 @@
+.grid-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.gridchild{
+    margin: 1rem;
+    color:white;
+    
+}
+
+h1{
+
+}
+

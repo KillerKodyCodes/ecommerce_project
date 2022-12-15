@@ -1,0 +1,1 @@
+import"../stylesheets/footer.css"
