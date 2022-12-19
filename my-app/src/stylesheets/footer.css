@@ -1,0 +1,20 @@
+
+.footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #000000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .link-container{
+    list-style-type: none;
+    display: flex;
+    
+  }
+
+  li {
+    margin:auto;
+  }
