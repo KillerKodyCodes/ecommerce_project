@@ -1,9 +1,15 @@
-* {
-    box-sizing: border-box;
-    font-family: 'Kanit', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+  * {
+      box-sizing: border-box;
   }
   
   body {
     margin: 0;
     background-color: #7f0b0d;
+    font-family: 'Kanit', sans-serif;
   }
+  
+  
+  

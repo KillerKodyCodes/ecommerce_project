@@ -1,6 +1,8 @@
 .product-filter{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:nowrap;
+    margin: 1rem;
+    width: 100%;
 }
 
 .product-filter h1{
@@ -10,7 +12,7 @@
 
 .sort{
     display: flex;
-    margin-right: 20px;
+    margin-right: 0;
 }
 
 .collection-sort{

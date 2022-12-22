@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className="nav">
       <Link to="/">
-        <img classname="logo"src={bannerLogo} alt="logo" height="100rem"/>
+        <img className="logo"src={bannerLogo} alt="logo" height="100rem"/>
       </Link>
       <ul>
         <CustomLink to="/">Home</CustomLink>

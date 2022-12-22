@@ -1,4 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body {
+  margin: 0;
+  background-color: #7f0b0d;
+  font-family: 'Kanit', sans-serif;
+}
+
 .grid-wrapper{
+    margin-top: 4rem;
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: auto;
@@ -14,7 +24,4 @@
     
 }
 
-h1{
-
-}
 

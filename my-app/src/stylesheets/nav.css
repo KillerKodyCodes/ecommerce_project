@@ -1,9 +1,4 @@
-.container {
-    margin: 1rem;
-    text-align: center;
-  }
-  
-  .nav {
+ .nav {
     background-color: #000000;
     color: white;
     display: flex;

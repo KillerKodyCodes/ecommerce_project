@@ -5,7 +5,7 @@ export default function Filterbar(){
    
     return(
         <nav className="product-filter">
-            <h1>Red Lightning Armwrestling Handles and Merchandise</h1>
+            <h1>Handles and Merchandise</h1>
 
             <div className="sort">
 
