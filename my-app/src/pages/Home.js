@@ -1,8 +1,10 @@
-import"../stylesheets/home.css"
+
 import handleSet from '../images/handleset.jpg'
 import {Row, Col, Container} from 'react-bootstrap'
+
+import"../stylesheets/home.css"
 export default function Home(){
-    
+
     return(
 
         <Container>
